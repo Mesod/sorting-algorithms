@@ -1,5 +1,5 @@
 module.exports = (numbersArray) => {
-    let unsortedNumbersArray = Object.assign([], numbersArray);
+    let unsortedNumbersArray = Object.assign([], numbersArray)
     let arrayLength = unsortedNumbersArray.length
     for (let i = 0; i < arrayLength - 2; i++) {
         let swapCounter = 0;
