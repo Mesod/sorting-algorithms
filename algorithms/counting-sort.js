@@ -16,7 +16,7 @@ module.exports = (numbersArray) => {
                         biggestNumber = unsortedNumbersArray[i]
                     }
                 }
-                fillPositionArray(positionsArray, biggestNumber + 1)
+                fillBlankArray(positionsArray, biggestNumber + 1)
                 break
             case 1:
                 for (let i = 0; i < arrayLength; i++) {
@@ -37,7 +37,7 @@ module.exports = (numbersArray) => {
     return sortedNumbersArray
 }
 
-function fillPositionArray(blankArray, length) {
+function fillBlankArray(blankArray, length) {
     for (let i = 0; i < length; i++) {
         blankArray[i] = 0
     }
